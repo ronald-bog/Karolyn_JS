@@ -1,7 +1,9 @@
-// Number: Numeros enteros, Numeros flotantes
-let edad = 30;
+let primerNumero = 123;
+let segundoNumero = 2546;
 
-// typeof: sirve para verificar tipos de datos
-console.log(typeof edad);
+//console.log(n === m);
+//console.log(m >= n);
+//console.log(n < m);
 
-console.log(edad);
+//console.log(segundoNumero >= primerNumero);
+console.log(primerNumero < segundoNumero);
