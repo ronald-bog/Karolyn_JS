@@ -79,4 +79,34 @@ let segundoNumero = 2546;
 //console.log(n < m);
 
 //console.log(segundoNumero >= primerNumero);
-console.log(primerNumero < segundoNumero);
+//console.log(primerNumero < segundoNumero);
+
+//* Operadores Logicos
+// AND (y) &&
+let num1 = 15;
+let num2 = 11;
+let num3 = 28;
+
+console.log((num1 > num2) && (num1 < num3)); //true
+console.log(num3 >= num1 && num2 === num2 && num1 !== num3);
+console.log(num1 > num2 && num2 >= num1 && num3 < num1 && num1 >= num2);
+
+// OR (o) ||
+let numA = 23;
+let numB = 111;
+let numC = 58;
+//console.log(numA >= numC || numB !== numB || numB < numC);
+//console.log(numC === numA || numC < numA || numB >= numC);
+
+// NOT (negacion) !
+console.log(!(numA > numC));
+
+// Operador de concatenacion en strings
+
+let palabra1 = "Hola";
+let palabra2 = " karolyn";
+console.log(palabra1 + palabra2);
+
+let n1 = 50;
+let n2 = 60;
+console.log(n1 + n2);
