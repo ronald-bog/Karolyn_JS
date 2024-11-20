@@ -1,2 +1,3 @@
-let frase = 'Hola Mundo!';
-console.log(frase.charAt(0));
+// slice:
+let fraseDev = 'Hola mundo!!!';
+console.log(fraseDev.slice(8));
