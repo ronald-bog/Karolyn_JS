@@ -52,4 +52,36 @@ console.log(saludar.replace('Karolyn', 'Yuritzy'));
 
 // slice:
 let fraseDev = 'Hola mundo!!!';
-console.log(fraseDev.slice(8));
+console.log(fraseDev.slice(5));
+console.log(fraseDev.slice(2, 7));
+console.log(fraseDev.slice(-8));
+console.log(fraseDev.slice(-8, -5));
+
+
+// FORMATEAR OUTPUTS
+
+let carrera = 'Ingenieria';
+let rama = 'Software';
+let mid = 'de';
+
+console.log('Mi carrera es: ' + carrera + ' ' + mid + ' ' + rama);
+
+// literal templates
+console.log(`Mi carrera es: ${carrera} ${mid} ${rama}`);
+
+let vr1 = 15;
+let vr2 = 2;
+
+console.log(`El resultado de la multiplicacion de ${vr1} por ${vr2} es igual a: ${vr1 * vr2}`);
+
+// Valores ASCII
+// charCodeAt()
+let letra = 'A';
+console.log(letra.charCodeAt());
+let nombreA = 'Ana';
+console.log(nombreA.charCodeAt(2));
+
+// fromCharCode()
+let codigo = 126;
+console.log(String.fromCharCode(codigo));
+
