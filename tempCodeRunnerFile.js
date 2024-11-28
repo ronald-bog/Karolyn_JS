@@ -1,2 +1,1 @@
-let codigo = 190;
-console.log(String.fromCharCode(codigo));
+console.log(66 === 68 ? 'jajajaj soy verdadero' : 'ahhh soy falso');
