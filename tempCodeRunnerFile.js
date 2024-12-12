@@ -1,1 +1,1 @@
-console.log(66 === 68 ? 'jajajaj soy verdadero' : 'ahhh soy falso');
+(false)
