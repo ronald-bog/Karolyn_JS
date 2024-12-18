@@ -29,39 +29,63 @@ numeros.push(true);
 // unshift
 const lenguajes = ['Javascript', 'php', 'C++', 'Python'];
 
-console.log(lenguajes);
-console.log(lenguajes.length);
+// console.log(lenguajes);
+// console.log(lenguajes.length);
 let newLength = lenguajes.unshift('Go');
-console.log(lenguajes);
-console.log(newLength);
+// console.log(lenguajes);
+// console.log(newLength);
 lenguajes.unshift(321);
 lenguajes.unshift(false);
-console.log(lenguajes);
+// console.log(lenguajes);
 
 // shift
 const frameworks = ['React', 'Angular', 'Spring', 'Laravel', 'Django'];
 
-console.log(frameworks);
-console.log(frameworks.length);
+// console.log(frameworks);
+// console.log(frameworks.length);
 let elementoSacado = frameworks.shift();
 //frameworks.shift();
-console.log(frameworks);
-console.log(elementoSacado);
+// console.log(frameworks);
+// console.log(elementoSacado);
 
 // pop
-console.log('***************');
-console.log(frameworks);
+// console.log('***************');
+// console.log(frameworks);
 let elementoSacado2 = frameworks.pop();
 //frameworks.pop();
-console.log(frameworks);
-console.log(elementoSacado2);
+//console.log(frameworks);
+//console.log(elementoSacado2);
 
 // indexOf
 let animales = ['oso', 'elefante', 'jirafa', 'ballena'];
 
-let indeceObtenido = animales.indexOf('otra cosa');
+let animal = 'jirafa'.toLowerCase();
+let indiceObtenido = animales.indexOf(animal);
 
-console.log(indeceObtenido);
+//console.log(indiceObtenido);
+
+if (indiceObtenido !== -1) {
+    console.log(`El animal ${animal} * SI * existe en el arreglo y se encuentra en la posicion ${indiceObtenido + 1}`);
+} else {
+    console.log(`El animal ${animal} * NO * existe en el arreglo`);
+}
+
+
+// splice
+
+// eliminacion
+
+let numerosA = [21, 22, 23, 24, 25];
+
+let elementoBorrado = numerosA.splice(3, 1);
+console.log(numerosA);
+console.log(elementoBorrado);
+
+// Añadir
+let letras = ['a', 'z', 'f', 'l'];
+letras.splice(3, 0, 55, 't', 'y');
+console.log(letras);
+
 
 
 
