@@ -124,3 +124,35 @@ const extraidos = comida.slice(-3);
 console.log(extraidos);
 
 
+if (pregunta_usuario === pregunta_compu) {
+    alert("es un empate");
+} else if (pregunta_usuario === "piedra" && pregunta_compu === "tijeras" ||
+    pregunta_usuario === "papel" && pregunta_compu === "piedra" ||
+    pregunta_usuario == "tijeras" && pregunta_compu === "papel"
+) {
+    alert("Ganaste");
+} else if (pregunta_usuario === "tijera" && pregunta_compu === "piedra" ||
+    pregunta_usuario === "tijera" && pregunta_compu === "papel" ||
+    pregunta_usuario === "piedra" && pregunta_compu === "papel"
+) {
+    alert("Perdiste");
+} else {
+    alert("opcion no valida");
+}
+
+const pregunta_usuario = 'piedra';
+const opciones = ['piedra', 'papel', 'tijera'];
+if (opciones.includes(pregunta_usuario)) {
+    if (pregunta_usuario === "piedra" && pregunta_compu === "tijeras" ||
+        pregunta_usuario === "papel" && pregunta_compu === "piedra" ||
+        pregunta_usuario == "tijeras" && pregunta_compu === "papel"
+    ) {
+        alert("Ganaste");
+    }
+    else {
+        alert("Perdiste");
+    }
+}
+else {
+    alert("opcion no valida");
+}
