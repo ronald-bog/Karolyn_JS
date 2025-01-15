@@ -156,3 +156,15 @@ if (opciones.includes(pregunta_usuario)) {
 else {
     alert("opcion no valida");
 }
+
+
+// Desempaquetamiento de un array
+
+let numbers = [55, 22, 33];
+const lenguajes2 = ['Python', 'Php', 'Perl'];
+
+let [a, b, c] = lenguajes2;
+
+//console.log(var1);
+console.log(b);
+//console.log(var3);
